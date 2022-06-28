@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>School Humcom Lab Final Exam</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://kit.fontawesome.com/e5f22a2d50.js" crossorigin="anonymous"></script>
+      
+     
+</head>
+
+
+<body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images\logo2.png"></a>
+                <div class ="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                     
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="offers.html">OFFERS</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>                       
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+<h1>About Us</h1>
+       </section>
+
+
+<!----footer---->
+
+<section class="footer">
+    <h5>ABOUT US</h5>
+    <p>We are a student hoping to promote and open our place for tourist like you and
+        enjoy, learn,<br>explore and witness our culture in hopes that we can atleast minimize
+        criticsm and that is also for our culture to be exposed or known around the world.<br>As a student and a proud citizen I am very proud o present and share our culture and have our
+        place open for tourist as to not only promote but to also to help our community in promoting our barangay.<br>
+        We have plenty of things for you to show and engage in! Hiking, adventure, foraging and other culture
+        related stuff. Hope to see you soon!
+    </p>
+
+    <div class="commment-box">
+
+        <h3>LEAVE A COMMENT</h3>
+        <form class="comment-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="Email" placeholder="Enter Email">
+        <textarea name="Your Comment" id="Comment" cols="160" rows="5" placeholder="Your Comment"></textarea>
+        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+        </form>
+        </div>
+
+    <div class="icon">
+        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+    </div>
+    <p>This page is made possible by EasyTutorials  <i class="fa fa-heart-o"></i> </p>
+</section>
+
+
+
+
+
+
+<!-----Java Script for Toggle Menu-----> 
+<script>
+
+var navLinks = document.getElementById("navLinks");
+function  showMenu(){
+    navLinks.style.right = "0";
+}
+function  hideMenu(){
+    navLinks.style.right = "-200px";
+}
+
+</script>
+
+
+
+
+
+</body>
+</html>

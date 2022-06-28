@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>School Humcom Lab Final Exam</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://kit.fontawesome.com/e5f22a2d50.js" crossorigin="anonymous"></script>
+      
+     
+</head>
+
+
+<body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images\logo2.png"></a>
+                <div class ="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                     
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="offers.html">OFFERS</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>                       
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>BLOG</h1>
+       </section>
+
+
+
+
+<!----Blog---->
+
+<section class="blog">
+    <h1>Sample Views</h1>
+    <p>Here are the sample views from or hometown.</p>
+
+    <div class="row">
+        <div class="blog-col">
+            <img src="images\BeautyPlus_20201024105226046_save.jpg">
+            <div class="layer">
+                <h2>Sample hike</h2>
+            </div>            
+        </div>
+        <div class="blog-col">
+            <img src="images\IMG20201221162438.jpg">
+            <div class="layer">
+                <h2>Sample View</h2>
+            </div>
+        </div>
+        <div class="blog-col">
+            <img src="images\IMG_20200703_083951.jpg">
+            <div class="layer">
+                <h2>View of "Bantic"</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="testimonials">
+    <h1>Some testimonials</h1>
+    <p>Here are some words from a native and a tourist.</p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images\user1.2.jpg" >
+            <div>              
+                <p>I am Calias Sandra a resident in a secluded valley in Dalupirip, Itogon Benguet
+                    and I am very proud to say that I am one from the indigenous people living in there! All
+                    are welcome to visit in our homeland, not only is enjoyable but it will also be full of
+                    adventures and excitement. I hope to see you soon there!
+                </p>
+                <h3>Calias Sandra</h3>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images\user2.1.jpg" >
+            <div>           
+                <p>I visited this place one's and i walk through the two village people there are very welcoming
+                    and very generous. the children also very hiper, the views are breathe-taking, the weather is 
+                    ones you hike at the top of the mount Agoo, a little further from the village. This place is very nice
+                    unfortunately we have on;y a limited time to enjoy it. Hope I can still visit Again! 
+                </p>
+                <h3> josuah johan lovergd</h3>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-----Java Script for Toggle Menu-----> 
+<script>
+
+var navLinks = document.getElementById("navLinks");
+function  showMenu(){
+    navLinks.style.right = "0";
+}
+function  hideMenu(){
+    navLinks.style.right = "-200px";
+}
+
+</script>
+
+
+
+
+
+</body>
+</html>
